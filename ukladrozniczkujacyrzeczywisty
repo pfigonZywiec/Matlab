@@ -1,0 +1,5 @@
+% transmitancja operatorowa rzeczywistego układu różniczkującego
+Td = 1e-3;
+T = 1e-6;
+sys = tf([Td 0],[T 1]);
+bode( sys )
